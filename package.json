@@ -6,7 +6,6 @@
   "scripts": {
     "start": "node backend/server.js",
     "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
-    
   },
   "author": "Pallav Jain",
   "license": "ISC",
@@ -17,6 +16,7 @@
     "express-async-handler": "^1.2.0",
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^7.0.1",
+    "react-helmet": "^6.1.0",
     "socket.io": "^4.6.1"
   },
   "devDependencies": {
